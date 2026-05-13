@@ -161,4 +161,172 @@ ENGINE_PERFORMANCE = {
             "   a. Remove the 6 spark plugs."
         ]
     },
+    "v_bank_cover_removal": {
+        "category": "Engine Performance",
+        "subcategory": "Engine Covers",
+        "section": "V-Bank Cover - Removal",
+        "tools": ["None"],
+        "workflow": [
+            "",
+            "=== V-BANK COVER - REMOVAL ===",
+            "",
+            "1. REMOVE V-BANK COVER",
+            "",
+            "   a. Raise the front of the V-bank cover to detach the 2 pins.",
+            "   b. Detach the 2 V-bank cover hooks from the bracket.",
+            "   c. Remove the V-bank cover.",
+            "",
+            "   *1  Pin",
+            "   *2  V-bank Cover Hook"
+        ]
+    },
+    "air_tube_removal": {
+        "category": "Engine Performance",
+        "subcategory": "Air Intake",
+        "section": "Air Tube - Removal",
+        "tools": [
+            "Socket set",
+            "Wrench"
+        ],
+        "workflow": [
+            "",
+            "=== AIR TUBE - REMOVAL ===",
+            "",
+            "1. REMOVE AIR TUBE",
+            "",
+            "   a. Remove the 2 bolts, 2 nuts and air tube.",
+            "   b. Remove the 2 gaskets from the air tube.",
+            "",
+            "   NOTE: Be careful not to damage the installation surfaces of the gaskets."
+        ]
+    },
+    "no1_emission_control_valve_removal": {
+        "category": "Engine Performance",
+        "subcategory": "Emissions",
+        "section": "No. 1 Emission Control Valve Set - Removal",
+        "tools": [
+            "Socket set",
+            "Wrench"
+        ],
+        "workflow": [
+            "",
+            "=== NO. 1 EMISSION CONTROL VALVE SET - REMOVAL ===",
+            "",
+            "1. REMOVE NO. 1 EMISSION CONTROL VALVE SET",
+            "",
+            "   a. Disconnect the No. 1 emission control valve set connector.",
+            "   b. Disconnect the No. 1 air hose from the No. 1 emission control valve set.",
+            "   c. Remove the 3 nuts and No. 1 emission control valve set."
+        ]
+    },
+    "spark_plug_installation": {
+        "category": "Engine Performance",
+        "subcategory": "Ignition",
+        "section": "Spark Plug - Installation",
+        "torque": {
+            "spark_plug": "18 N·m (184 kgf·cm, 13 ft·lbf)",
+            "ignition_coil_bolts": "10 N·m (102 kgf·cm, 7 ft·lbf)",
+            "air_cleaner_bolt": "5.0 N·m (51 kgf·cm, 44 in·lbf)",
+            "air_cleaner_clamp": "5.0 N·m (51 kgf·cm, 44 in·lbf)"
+        },
+        "tools": [
+            "Spark plug socket (14 mm)",
+            "Torque wrench",
+            "Socket set",
+            "Extensions"
+        ],
+        "references": {
+            "no2_emission_control_valve": "No. 2 Emission Control Valve Set Installation",
+            "no2_air_tube": "No. 2 Air Tube Installation",
+            "no1_emission_control_valve": "No. 1 Emission Control Valve Set Installation",
+            "air_tube": "Air Tube Installation",
+            "v_bank_cover": "V-Bank Cover Installation"
+        },
+        "workflow": [
+            "",
+            "=== SPARK PLUG - INSTALLATION ===",
+            "",
+            "1. INSTALL SPARK PLUG",
+            "",
+            "   a. Install the 6 spark plugs.",
+            "      Torque: 18 N·m (184 kgf·cm, 13 ft·lbf)",
+            "",
+            "2. INSTALL IGNITION COIL ASSEMBLY",
+            "",
+            "   a. Install the 6 ignition coil assemblies with the 6 bolts.",
+            "      Torque: 10 N·m (102 kgf·cm, 7 ft·lbf)",
+            "   b. Connect the 6 ignition coil connectors.",
+            "",
+            "3. INSTALL NO. 2 EMISSION CONTROL VALVE SET",
+            "   → Refer to No. 2 Emission Control Valve Set Installation",
+            "",
+            "4. INSTALL NO. 2 AIR TUBE",
+            "   → Refer to No. 2 Air Tube Installation",
+            "",
+            "5. INSTALL NO. 1 EMISSION CONTROL VALVE SET",
+            "   → Refer to No. 1 Emission Control Valve Set Installation",
+            "",
+            "6. INSTALL AIR TUBE",
+            "   → Refer to Air Tube Installation",
+            "",
+            "7. INSTALL AIR CLEANER CAP AND HOSE",
+            "",
+            "   a. Install the air cleaner cap and hose.",
+            "",
+            "      *a  Top",
+            "      *b  Front",
+            "      *c  RH",
+            "      *d  Align cutout portion of hose with protrusion of throttle",
+            "      *e  Paint Mark",
+            "",
+            "   b. Install the air cleaner cap and hose with the bolt and fasten the",
+            "      4 hook clamps.",
+            "      Torque: 5.0 N·m (51 kgf·cm, 44 in·lbf)",
+            "",
+            "   c. Tighten the clamp.",
+            "      Torque: 5.0 N·m (51 kgf·cm, 44 in·lbf)",
+            "",
+            "   d. Attach the 4 clamps and connect the ventilation hose, vacuum hose",
+            "      and mass air flow meter connector.",
+            "",
+            "   HINT: The direction of the hose clamp is indicated in the illustration.",
+            "",
+            "8. INSTALL V-BANK COVER",
+            "   → Refer to V-Bank Cover Installation"
+        ]
+    },
+    "no2_emission_control_valve_installation": {
+        "category": "Engine Performance",
+        "subcategory": "Emissions",
+        "section": "No. 2 Emission Control Valve Set - Installation",
+        "torque": {
+            "mounting_nuts": "21 N·m (214 kgf·cm, 15 ft·lbf)"
+        },
+        "tools": [
+            "Socket set",
+            "Torque wrench"
+        ],
+        "workflow": [
+            "",
+            "=== NO. 2 EMISSION CONTROL VALVE SET - INSTALLATION ===",
+            "",
+            "1. INSTALL NO. 2 EMISSION CONTROL VALVE SET",
+            "",
+            "   a. Install the No. 2 emission control valve set with the 3 nuts.",
+            "      Torque: 21 N·m (214 kgf·cm, 15 ft·lbf)",
+            "",
+            "   b. Align the paint mark with the projection and connect the No. 1 air hose.",
+            "",
+            "      *1  Paint Mark",
+            "      *2  Projection",
+            "      *a  Upper",
+            "      *b  LH Side",
+            "",
+            "   HINT: Make sure the direction of the hose clamp is as shown in the",
+            "   illustration.",
+            "",
+            "   c. Connect the No. 2 emission control valve set connector."
+        ]
+    },
+    
     
