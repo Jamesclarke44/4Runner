@@ -1,9 +1,6 @@
-# Import each module as you build it
-# from .brakes import BRAKES
-# from .steering import STEERING
-# etc.
+from .brakes import BRAKES
+from .engine_mechanical import ENGINE_MECHANICAL
 
 WORKSHOP = {}
-
-# Add modules as you build them:
-# WORKSHOP.update(BRAKES)
+WORKSHOP.update(BRAKES)
+WORKSHOP.update(ENGINE_MECHANICAL)
