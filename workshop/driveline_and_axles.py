@@ -1,19 +1,23 @@
 DRIVELINE_AXLES = {
 
-    "front_differential_oil": {
+    "differential_oil": {
         "category": "Driveline & Axles",
         "subcategory": "Differential Oil",
-        "section": "Front Differential Oil Replacement",
+        "section": "Differential Oil Replacement (Front & Rear)",
         "fluid": {
             "type": "Toyota Genuine Differential gear oil LT 75W-85 GL-5 or equivalent",
             "capacity": {
-                "standard": "1.35 to 1.45 L (1.43 to 1.53 US qts, 1.18 to 1.27 Imp. qts)",
-                "with_ADD": "1.50 to 1.60 L (1.59 to 1.69 US qts, 1.32 to 1.40 Imp. qts)"
+                "front_standard": "1.35 to 1.45 L (1.43 to 1.53 US qts, 1.18 to 1.27 Imp. qts)",
+                "front_with_ADD": "1.50 to 1.60 L (1.59 to 1.69 US qts, 1.32 to 1.40 Imp. qts)",
+                "rear_standard": "2.65 to 2.75 L (2.80 to 2.91 US qts, 2.33 to 2.42 Imp. qts)",
+                "rear_with_diff_lock": "2.60 to 2.70 L (2.75 to 2.85 US qts, 2.29 to 2.38 Imp. qts)"
             }
         },
         "torque": {
             "front_filler_plug": "39 N·m (398 kgf·cm, 29 ft·lbf)",
-            "front_drain_plug": "65 N·m (660 kgf·cm, 48 ft·lbf)"
+            "front_drain_plug": "65 N·m (660 kgf·cm, 48 ft·lbf)",
+            "rear_filler_plug": "49 N·m (500 kgf·cm, 36 ft·lbf)",
+            "rear_drain_plug": "49 N·m (500 kgf·cm, 36 ft·lbf)"
         },
         "specs": {
             "oil_level": "0 to 5 mm (0 to 0.197 in.) below filler plug opening"
@@ -27,7 +31,7 @@ DRIVELINE_AXLES = {
         ],
         "workflow": [
             "",
-            "=== FRONT DIFFERENTIAL OIL REPLACEMENT ===",
+            "=== DIFFERENTIAL OIL REPLACEMENT (FRONT & REAR) ===",
             "",
             "1. INSPECT DIFFERENTIAL OIL LEVEL",
             "",
@@ -43,7 +47,8 @@ DRIVELINE_AXLES = {
             "      repair or replace the part necessary to stop the leakage.",
             "",
             "   f. Install a new gasket and differential filler plug.",
-            "      Front differential carrier: 39 N·m (398 kgf·cm, 29 ft·lbf)",
+            "      Front: 39 N·m (398 kgf·cm, 29 ft·lbf)",
+            "      Rear:  49 N·m (500 kgf·cm, 36 ft·lbf)",
             "",
             "2. DRAIN DIFFERENTIAL OIL",
             "",
@@ -51,29 +56,35 @@ DRIVELINE_AXLES = {
             "   b. Remove the differential drain plug and gasket.",
             "   c. Drain the oil.",
             "   d. Install a new gasket and the differential drain plug.",
-            "      Front differential carrier: 65 N·m (660 kgf·cm, 48 ft·lbf)",
+            "      Front: 65 N·m (660 kgf·cm, 48 ft·lbf)",
+            "      Rear:  49 N·m (500 kgf·cm, 36 ft·lbf)",
             "",
             "3. ADD DIFFERENTIAL OIL",
             "",
             "   a. Remove the differential filler plug and gasket.",
             "",
-            "   b. Pour oil into the front differential carrier assembly so that the oil",
-            "      level is within 0 to 5 mm (0 to 0.197 in.) of the bottom of the filler",
-            "      plug opening.",
+            "   b. Pour oil into the differential carrier assembly so that the oil level",
+            "      is within 0 to 5 mm (0 to 0.197 in.) of the bottom of the filler plug",
+            "      opening.",
             "",
             "   NOTE: Excessively large or small quantities of oil may cause problems.",
             "",
-            "   Front Differential Capacity:",
-            "   Standard:  1.35 to 1.45 L (1.43 to 1.53 US qts, 1.18 to 1.27 Imp. qts)",
-            "   w/ A.D.D.:  1.50 to 1.60 L (1.59 to 1.69 US qts, 1.32 to 1.40 Imp. qts)",
+            "   FRONT DIFFERENTIAL:",
+            "   Standard:   1.35 to 1.45 L (1.43 to 1.53 US qts, 1.18 to 1.27 Imp. qts)",
+            "   w/ A.D.D.:   1.50 to 1.60 L (1.59 to 1.69 US qts, 1.32 to 1.40 Imp. qts)",
+            "",
+            "   REAR DIFFERENTIAL:",
+            "   Standard:         2.65 to 2.75 L (2.80 to 2.91 US qts, 2.33 to 2.42 Imp. qts)",
+            "   w/ Diff Lock:     2.60 to 2.70 L (2.75 to 2.85 US qts, 2.29 to 2.38 Imp. qts)",
             "",
             "   Oil Type: Toyota Genuine Differential gear oil LT 75W-85 GL-5 or equivalent",
             "",
             "   c. Install a new gasket and the differential filler plug.",
-            "      Front differential carrier: 39 N·m (398 kgf·cm, 29 ft·lbf)",
+            "      Front: 39 N·m (398 kgf·cm, 29 ft·lbf)",
+            "      Rear:  49 N·m (500 kgf·cm, 36 ft·lbf)",
             "",
             "   d. Drive the vehicle and check the oil level again.",
             "   e. If necessary, add differential oil."
         ]
     }
-},
+}
