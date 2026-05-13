@@ -407,6 +407,54 @@ ENGINE_PERFORMANCE = {
             "   *1  Pin",
             "   *2  Hook"
         ]
+    },
+    "air_tube_installation": {
+        "category": "Engine Performance",
+        "subcategory": "Air Intake",
+        "section": "Air Tube - Installation",
+        "torque": {
+            "bolts_nuts": "10 N·m (102 kgf·cm, 7 ft·lbf)"
+        },
+        "tools": [
+            "Socket set",
+            "Torque wrench"
+        ],
+        "workflow": [
+            "",
+            "=== AIR TUBE - INSTALLATION ===",
+            "",
+            "1. INSTALL AIR TUBE",
+            "",
+            "   a. Install 2 new gaskets to the air tube.",
+            "",
+            "      *1  New Gasket",
+            "      *2  Air Tube",
+            "",
+            "   NOTE: Be careful not to damage the installation surfaces of the gaskets.",
+            "",
+            "   b. Install the air tube with the 2 bolts and 2 nuts.",
+            "      Torque: 10 N·m (102 kgf·cm, 7 ft·lbf)"
+        ]
+    },
+    "no2_air_tube_removal": {
+        "category": "Engine Performance",
+        "subcategory": "Air Intake",
+        "section": "No. 2 Air Tube - Removal",
+        "tools": [
+            "Socket set",
+            "Wrench"
+        ],
+        "workflow": [
+            "",
+            "=== NO. 2 AIR TUBE - REMOVAL ===",
+            "",
+            "1. REMOVE NO. 2 AIR TUBE",
+            "",
+            "   a. Remove the 2 bolts, 2 nuts and No. 2 air tube.",
+            "   b. Remove the 2 gaskets from the No. 2 air tube.",
+            "",
+            "   NOTE: Be careful not to damage the installation surfaces of the gaskets."
+        ]
     }
     
     
