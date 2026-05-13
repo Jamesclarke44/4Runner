@@ -107,3 +107,58 @@ ENGINE_PERFORMANCE = {
         ]
     }
 },
+"spark_plug_removal": {
+        "category": "Engine Performance",
+        "subcategory": "Ignition",
+        "section": "Spark Plug - Removal",
+        "tools": [
+            "Spark plug socket (14 mm)",
+            "Socket set",
+            "Extensions",
+            "Torque wrench"
+        ],
+        "references": {
+            "v_bank_cover": "V-Bank Cover Removal",
+            "air_tube": "Air Tube Removal",
+            "no1_emission_control_valve": "No. 1 Emission Control Valve Set Removal",
+            "no2_air_tube": "No. 2 Air Tube Removal",
+            "no2_emission_control_valve": "No. 2 Emission Control Valve Set Removal"
+        },
+        "workflow": [
+            "",
+            "=== SPARK PLUG - REMOVAL ===",
+            "",
+            "1. REMOVE V-BANK COVER",
+            "   → Refer to V-Bank Cover Removal",
+            "",
+            "2. REMOVE AIR CLEANER CAP AND HOSE",
+            "",
+            "   a. Disconnect the mass air flow meter connector, vacuum hose and",
+            "      ventilation hose and detach the 4 clamps.",
+            "   b. Loosen the clamp.",
+            "   c. Unfasten the 4 hook clamps, and then remove the bolt and air",
+            "      cleaner cap and hose.",
+            "",
+            "3. REMOVE AIR TUBE",
+            "   → Refer to Air Tube Removal",
+            "",
+            "4. REMOVE NO. 1 EMISSION CONTROL VALVE SET",
+            "   → Refer to No. 1 Emission Control Valve Set Removal",
+            "",
+            "5. REMOVE NO. 2 AIR TUBE",
+            "   → Refer to No. 2 Air Tube Removal",
+            "",
+            "6. REMOVE NO. 2 EMISSION CONTROL VALVE SET",
+            "   → Refer to No. 2 Emission Control Valve Set Removal",
+            "",
+            "7. REMOVE IGNITION COIL ASSEMBLY",
+            "",
+            "   a. Disconnect the 6 ignition coil assembly connectors.",
+            "   b. Remove the 6 bolts and 6 ignition coil assemblies.",
+            "",
+            "8. REMOVE SPARK PLUG",
+            "",
+            "   a. Remove the 6 spark plugs."
+        ]
+    },
+    
