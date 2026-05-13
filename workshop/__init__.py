@@ -1,6 +1,8 @@
 from .brakes import BRAKES
 from .engine_mechanical import ENGINE_MECHANICAL
+from .driveline_and_axles import DRIVELINE_AXLES
 
 WORKSHOP = {}
 WORKSHOP.update(BRAKES)
 WORKSHOP.update(ENGINE_MECHANICAL)
+WORKSHOP.update(DRIVELINE_AXLES)
