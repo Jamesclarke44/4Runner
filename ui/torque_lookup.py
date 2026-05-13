@@ -19,11 +19,18 @@ def render(data):
                     "Torque": value
                 })
 
-    # Search
-    query = st.text_input("Search torque specs (e.g., 'caliper', 'bleeder', 'cylinder')")
+    # Dropdown to select section
+    sections = ["All"] + sorted(grouped.keys())
+    selected = st.selectbox("Select section", sections)
 
-    # Display grouped
+    # Search
+    query = st.text_input("Search", placeholder="e.g. 'caliper', 'bleeder', 'cylinder'")
+
+    # Display
     for subcategory, items in grouped.items():
+        if selected != "All" and subcategory != selected:
+            continue
+
         if query:
             q = query.lower()
             items = [i for i in items if q in i["Part Tightened"].lower() or q in i["Service"].lower()]
@@ -36,5 +43,9 @@ def render(data):
                     st.write(f"**Torque:** {item['Torque']}")
             st.markdown("---")
 
-    if query and not any(items for items in grouped.values()):
+    if query and not any(
+        items for sub, items in grouped.items()
+        if selected in ("All", sub)
+        for i in items if query.lower() in i["Part Tightened"].lower()
+    ):
         st.info("No torque specs match your search.")
