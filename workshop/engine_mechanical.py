@@ -359,4 +359,193 @@ ENGINE_MECHANICAL = {
             "17. INSTALL UPPER RADIATOR SUPPORT SEAL",
             "    → Refer to Upper Radiator Support Seal Installation"
         ]
+    },
+    "upper_radiator_support_seal_removal": {
+        "category": "Engine Mechanical",
+        "subcategory": "Cooling System",
+        "section": "Upper Radiator Support Seal - Removal",
+        "tools": ["Clip remover or flathead screwdriver"],
+        "workflow": [
+            "",
+            "=== UPPER RADIATOR SUPPORT SEAL - REMOVAL ===",
+            "",
+            "1. REMOVE UPPER RADIATOR SUPPORT SEAL",
+            "",
+            "   a. Remove the 13 clips and upper radiator support seal."
+        ]
+    },
+    "cool_air_intake_duct_removal": {
+        "category": "Engine Mechanical",
+        "subcategory": "Air Intake",
+        "section": "Cool Air Intake Duct - Removal (4WD)",
+        "tools": ["Clip remover or flathead screwdriver"],
+        "workflow": [
+            "",
+            "=== COOL AIR INTAKE DUCT - REMOVAL (4WD) ===",
+            "",
+            "1. REMOVE COOL AIR INTAKE DUCT",
+            "",
+            "   a. Remove the 4 clips and cool air intake duct."
+        ]
+    },
+    "front_lower_bumper_cover_removal": {
+        "category": "Engine Mechanical",
+        "subcategory": "Body",
+        "section": "Front Lower Bumper Cover - Removal (w/o Intuitive Parking Assist)",
+        "tools": [
+            "Clip remover",
+            "Socket set"
+        ],
+        "workflow": [
+            "",
+            "=== FRONT LOWER BUMPER COVER - REMOVAL ===",
+            "",
+            "1. REMOVE FRONT LOWER BUMPER COVER",
+            "",
+            "   a. Remove the clip, 5 bolts and front lower bumper cover."
+        ]
+    },
+    "no1_engine_under_cover_removal": {
+        "category": "Engine Mechanical",
+        "subcategory": "Under Covers",
+        "section": "No. 1 Engine Under Cover - Removal",
+        "tools": ["Socket set"],
+        "workflow": [
+            "",
+            "=== NO. 1 ENGINE UNDER COVER - REMOVAL ===",
+            "",
+            "1. REMOVE NO. 1 ENGINE UNDER COVER SUB-ASSEMBLY",
+            "",
+            "   a. Remove the 4 bolts.",
+            "   b. Unhook the No. 1 engine under cover sub-assembly from the",
+            "      vehicle body as shown in the illustration."
+        ]
+    },
+    "rear_engine_under_cover_removal": {
+        "category": "Engine Mechanical",
+        "subcategory": "Under Covers",
+        "section": "Rear Engine Under Cover - Removal",
+        "tools": ["Socket set"],
+        "workflow": [
+            "",
+            "=== REAR ENGINE UNDER COVER - REMOVAL ===",
+            "",
+            "1. REMOVE REAR ENGINE UNDER COVER ASSEMBLY",
+            "",
+            "   a. Remove the 4 bolts and rear engine under cover assembly."
+        ]
+    },
+    "coolant_leak_inspection": {
+        "category": "Engine Mechanical",
+        "subcategory": "Cooling System",
+        "section": "Coolant Leak - On-Vehicle Inspection",
+        "tools": [
+            "Radiator cap tester",
+            "Engine coolant"
+        ],
+        "specs": {
+            "test_pressure": "123 kPa (1.3 kgf/cm², 18 psi)"
+        },
+        "workflow": [
+            "",
+            "=== COOLANT LEAK - ON-VEHICLE INSPECTION ===",
+            "",
+            "1. INSPECT FOR COOLANT LEAK",
+            "",
+            "   ⚠️ WARNING: To avoid being burned, do not remove the radiator",
+            "   reservoir cap while the engine and radiator are still hot.",
+            "   Thermal expansion may cause hot engine coolant and steam",
+            "   to blow out from the radiator.",
+            "",
+            "   a. Fill the radiator with engine coolant, and then attach a",
+            "      radiator cap tester.",
+            "   b. Warm up the engine.",
+            "   c. Using the radiator cap tester, increase the pressure inside",
+            "      the radiator to 123 kPa (1.3 kgf/cm², 18 psi), and then",
+            "      check that the pressure does not drop.",
+            "",
+            "   d. If the pressure drops, check the hoses, radiator and water",
+            "      pump for leakage.",
+            "   e. If there are no signs or traces of external engine coolant",
+            "      leakage, check the heater core, cylinder block and head."
+        ]
+    },
+    "rear_engine_under_cover_installation": {
+        "category": "Engine Mechanical",
+        "subcategory": "Under Covers",
+        "section": "Rear Engine Under Cover - Installation",
+        "torque": {
+            "bolts": "29 N·m (296 kgf·cm, 21 ft·lbf)"
+        },
+        "tools": [
+            "Socket set",
+            "Torque wrench"
+        ],
+        "workflow": [
+            "",
+            "=== REAR ENGINE UNDER COVER - INSTALLATION ===",
+            "",
+            "1. INSTALL REAR ENGINE UNDER COVER ASSEMBLY",
+            "",
+            "   a. Install the rear engine under cover assembly with the 4 bolts.",
+            "      Torque: 29 N·m (296 kgf·cm, 21 ft·lbf)"
+        ]
+    },
+    "no1_engine_under_cover_installation": {
+        "category": "Engine Mechanical",
+        "subcategory": "Under Covers",
+        "section": "No. 1 Engine Under Cover - Installation",
+        "torque": {
+            "bolts": "29 N·m (296 kgf·cm, 21 ft·lbf)"
+        },
+        "tools": [
+            "Socket set",
+            "Torque wrench"
+        ],
+        "workflow": [
+            "",
+            "=== NO. 1 ENGINE UNDER COVER - INSTALLATION ===",
+            "",
+            "1. INSTALL NO. 1 ENGINE UNDER COVER SUB-ASSEMBLY",
+            "",
+            "   a. Hook the No. 1 engine under cover sub-assembly to the",
+            "      vehicle body as shown in the illustration.",
+            "   b. Install the 4 bolts.",
+            "      Torque: 29 N·m (296 kgf·cm, 21 ft·lbf)"
+        ]
+    },
+    "front_lower_bumper_cover_installation": {
+        "category": "Engine Mechanical",
+        "subcategory": "Body",
+        "section": "Front Lower Bumper Cover - Installation (w/o Intuitive Parking Assist)",
+        "torque": {
+            "bolts": "8.0 N·m (82 kgf·cm, 71 in·lbf)"
+        },
+        "tools": [
+            "Socket set",
+            "Torque wrench"
+        ],
+        "workflow": [
+            "",
+            "=== FRONT LOWER BUMPER COVER - INSTALLATION ===",
+            "",
+            "1. INSTALL FRONT LOWER BUMPER COVER",
+            "",
+            "   a. Install the front bumper cover lower with the 5 bolts and clip.",
+            "      Torque: 8.0 N·m (82 kgf·cm, 71 in·lbf)"
+        ]
+    },
+    "cool_air_intake_duct_installation": {
+        "category": "Engine Mechanical",
+        "subcategory": "Air Intake",
+        "section": "Cool Air Intake Duct - Installation (4WD)",
+        "tools": ["None"],
+        "workflow": [
+            "",
+            "=== COOL AIR INTAKE DUCT - INSTALLATION (4WD) ===",
+            "",
+            "1. INSTALL COOL AIR INTAKE DUCT",
+            "",
+            "   a. Install the cool air intake duct with the 4 clips."
+        ]
     }
