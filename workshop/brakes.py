@@ -127,4 +127,69 @@ BRAKES = {
             "34. Inspect for brake fluid leaks."
         ]
     }
-}
+},
+"front_brake_pads_removal": {
+        "category": "Brakes",
+        "subcategory": "Mechanical / Hydraulic",
+        "section": "Front Brake Pads - Removal",
+        "tools": [
+            "Union nut wrench (10 mm flare nut)",
+            "Socket set",
+            "Brake fluid catch container",
+            "Wire brush"
+        ],
+        "torque": {
+            "caliper_bolts": "Refer to installation procedure",
+            "lug_nuts": "83 ft·lbf (113 N·m)"
+        },
+        "sockets": {
+            "lug_nuts": "21 mm"
+        },
+        "workflow": [
+            "",
+            "=== FRONT BRAKE PADS - REMOVAL ===",
+            "",
+            "1. REMOVE FRONT WHEEL",
+            "",
+            "2. DRAIN BRAKE FLUID",
+            "   NOTE: Wash off the brake fluid immediately if it comes into contact with a painted surface.",
+            "",
+            "3. REMOVE FRONT DISC BRAKE PAD KIT",
+            "",
+            "   a. Remove the pin hold clip.",
+            "",
+            "      *1  Hole Pin",
+            "      *2  Pin Hold Clip",
+            "      *3  Anti-rattle Spring",
+            "",
+            "   NOTE: The pin hold clip can be reused if it has sufficient rebound; no deformation",
+            "   or wear; and has had all rust, dirt and foreign matter cleaned off.",
+            "",
+            "   b. Remove the 2 hole pins.",
+            "",
+            "   c. Remove the front disc brake anti-rattle spring.",
+            "",
+            "   NOTE: The anti-rattle spring can be reused if it has sufficient rebound;",
+            "   no deformation, cracks or wear; and has had all rust, dirt and foreign matter cleaned off.",
+            "",
+            "   d. Remove the 2 front disc brake pads from the disc brake cylinder.",
+            "",
+            "   e. Remove the front anti-squeal shims from the front disc brake pads.",
+            "",
+            "4. REMOVE DISC BRAKE CYLINDER ASSEMBLY LH",
+            "",
+            "   a. Using a union nut wrench, disconnect the brake tube from the disc brake cylinder assembly.",
+            "",
+            "   HINT: Use a container to catch brake fluid as it drains out.",
+            "",
+            "   b. Remove the 2 bolts and disc brake cylinder assembly.",
+            "",
+            "5. REMOVE FRONT DISC",
+            "",
+            "   a. Place matchmarks on the disc and axle hub if planning to reuse the disc.",
+            "",
+            "      *1  Matchmark",
+            "",
+            "   b. Remove the front disc."
+        ]
+    },
