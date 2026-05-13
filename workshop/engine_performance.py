@@ -106,4 +106,4 @@ ENGINE_PERFORMANCE = {
             "   Electrode gap for new spark plug: 1.0 to 1.1 mm (0.0394 to 0.0433 in.)"
         ]
     }
-}
+},
