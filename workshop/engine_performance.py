@@ -328,5 +328,67 @@ ENGINE_PERFORMANCE = {
             "   c. Connect the No. 2 emission control valve set connector."
         ]
     },
+    "no2_air_tube_installation": {
+        "category": "Engine Performance",
+        "subcategory": "Air Intake",
+        "section": "No. 2 Air Tube - Installation",
+        "torque": {
+            "bolts_nuts": "10 N·m (102 kgf·cm, 7 ft·lbf)"
+        },
+        "tools": [
+            "Socket set",
+            "Torque wrench"
+        ],
+        "workflow": [
+            "",
+            "=== NO. 2 AIR TUBE - INSTALLATION ===",
+            "",
+            "1. INSTALL NO. 2 AIR TUBE",
+            "",
+            "   a. Install 2 new gaskets to the No. 2 air tube.",
+            "",
+            "      *1  New Gasket",
+            "      *2  No. 2 Air Tube",
+            "",
+            "   NOTE: Be careful not to damage the installation surfaces of the gaskets.",
+            "",
+            "   b. Install the No. 2 air tube with the 2 bolts and 2 nuts.",
+            "      Torque: 10 N·m (102 kgf·cm, 7 ft·lbf)"
+        ]
+    },
+    "no1_emission_control_valve_installation": {
+        "category": "Engine Performance",
+        "subcategory": "Emissions",
+        "section": "No. 1 Emission Control Valve Set - Installation",
+        "torque": {
+            "mounting_nuts": "21 N·m (214 kgf·cm, 15 ft·lbf)"
+        },
+        "tools": [
+            "Socket set",
+            "Torque wrench"
+        ],
+        "workflow": [
+            "",
+            "=== NO. 1 EMISSION CONTROL VALVE SET - INSTALLATION ===",
+            "",
+            "1. INSTALL NO. 1 EMISSION CONTROL VALVE SET",
+            "",
+            "   a. Install the No. 1 emission control valve set with the 3 nuts.",
+            "      Torque: 21 N·m (214 kgf·cm, 15 ft·lbf)",
+            "",
+            "   b. Align the paint mark with the projection and connect the No. 1 air hose.",
+            "",
+            "      *1  Projection",
+            "      *2  Paint Mark",
+            "      *a  RH Side",
+            "      *b  Upper",
+            "",
+            "   HINT: Make sure the direction of the hose clamp is as shown in the",
+            "   illustration.",
+            "",
+            "   c. Connect the No. 1 emission control valve set connector."
+        ]
+    },
+    
     
     
