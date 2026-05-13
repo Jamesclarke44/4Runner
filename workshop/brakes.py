@@ -644,6 +644,6 @@ BRAKES = {
             "",
             "   Refer to Brake Fluid Bleeding procedure."
         ]
-    },
+    }
     
     
