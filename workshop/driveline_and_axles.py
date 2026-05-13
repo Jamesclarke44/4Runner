@@ -88,3 +88,64 @@ DRIVELINE_AXLES = {
         ]
     }
 },
+"transfer_case_oil": {
+        "category": "Driveline & Axles",
+        "subcategory": "Transfer Case",
+        "section": "Transfer Case Oil - Inspection & Fill",
+        "fluid": {
+            "type": "SAE 75W",
+            "capacity": "1.0 L (1.1 US qts, 0.9 Imp. qts)"
+        },
+        "torque": {
+            "filler_plug": "37 N·m (377 kgf·cm, 27 ft·lbf)"
+        },
+        "specs": {
+            "oil_level": "0 to 5.0 mm (0 to 0.196 in.) from bottom lip of filler plug hole"
+        },
+        "tools": [
+            "Socket set",
+            "Torque wrench",
+            "Fluid pump",
+            "New gasket (filler plug)"
+        ],
+        "workflow": [
+            "",
+            "=== TRANSFER CASE OIL - INSPECTION & FILL ===",
+            "",
+            "1. CHECK TRANSFER OIL",
+            "",
+            "   a. Remove the filler plug and gasket.",
+            "   b. Check that the oil level is between 0 to 5.0 mm (0 to 0.196 in.) from",
+            "      the bottom lip of the filler plug hole.",
+            "",
+            "      *a  0 to 5 mm",
+            "",
+            "   c. If the result is not as specified, add transfer oil.",
+            "",
+            "   NOTE: Too much or too little oil will lead to transfer problems.",
+            "",
+            "   d. When the oil level is too low, check for oil leaks.",
+            "",
+            "   e. Install a new gasket to the filler plug and then tighten the plug.",
+            "      Torque: 37 N·m (377 kgf·cm, 27 ft·lbf)",
+            "",
+            "2. ADD TRANSFER OIL",
+            "",
+            "   a. Remove the filler plug and gasket.",
+            "",
+            "   b. Add oil so that the oil level is between 0 to 5.0 mm (0 to 0.196 in.)",
+            "      from the bottom lip of the filler plug hole.",
+            "",
+            "   NOTE: Add oil slowly.",
+            "   NOTE: Add oil a little at a time, waiting several minutes between each",
+            "   addition of oil.",
+            "",
+            "   Viscosity: SAE 75W",
+            "   Capacity: 1.0 L (1.1 US qts, 0.9 Imp. qts)",
+            "",
+            "   c. Wait approximately 5 minutes and check that the oil level has not changed.",
+            "",
+            "   d. Install a new gasket to the filler plug and then tighten the plug.",
+            "      Torque: 37 N·m (377 kgf·cm, 27 ft·lbf)"
+        ]
+    }
