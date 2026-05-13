@@ -389,6 +389,25 @@ ENGINE_PERFORMANCE = {
             "   c. Connect the No. 1 emission control valve set connector."
         ]
     },
+    "v_bank_cover_installation": {
+        "category": "Engine Performance",
+        "subcategory": "Engine Covers",
+        "section": "V-Bank Cover - Installation",
+        "tools": ["None"],
+        "workflow": [
+            "",
+            "=== V-BANK COVER - INSTALLATION ===",
+            "",
+            "1. INSTALL V-BANK COVER",
+            "",
+            "   a. Attach the 2 V-bank cover hooks to the bracket.",
+            "   b. Align the 2 V-bank cover grommets with the 2 pins and press down",
+            "      on the V-bank cover to attach the pins.",
+            "",
+            "   *1  Pin",
+            "   *2  Hook"
+        ]
+    }
     
     
     
