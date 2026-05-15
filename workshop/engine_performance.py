@@ -105,9 +105,8 @@ ENGINE_PERFORMANCE = {
             "",
             "   Electrode gap for new spark plug: 1.0 to 1.1 mm (0.0394 to 0.0433 in.)"
         ]
-    }
-},
-"spark_plug_removal": {
+    },
+    "spark_plug_removal": {
         "category": "Engine Performance",
         "subcategory": "Ignition",
         "section": "Spark Plug - Removal",
@@ -455,7 +454,25 @@ ENGINE_PERFORMANCE = {
             "",
             "   NOTE: Be careful not to damage the installation surfaces of the gaskets."
         ]
+    },
+    "no2_emission_control_valve_removal": {
+        "category": "Engine Performance",
+        "subcategory": "Emissions",
+        "section": "No. 2 Emission Control Valve Set - Removal",
+        "tools": [
+            "Socket set",
+            "Wrench"
+        ],
+        "workflow": [
+            "",
+            "=== NO. 2 EMISSION CONTROL VALVE SET - REMOVAL ===",
+            "",
+            "1. REMOVE NO. 2 EMISSION CONTROL VALVE SET",
+            "",
+            "   a. Disconnect the No. 2 emission control valve set connector.",
+            "   b. Disconnect the No. 3 air hose.",
+            "   c. Remove the 3 nuts and No. 2 emission control valve set."
+        ]
     }
-    
-    
-    
+
+}
