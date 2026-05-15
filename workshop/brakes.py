@@ -125,8 +125,7 @@ BRAKES = {
             "",
             "33. Turn the Techstream off and turn the engine switch off.",
             "34. Inspect for brake fluid leaks."
-]
-    
+        ]
     },
     "front_brake_pads_removal": {
         "category": "Brakes",
@@ -645,6 +644,11 @@ BRAKES = {
             "   Refer to Brake Fluid Bleeding procedure."
         ]
     },
+
+    # ============================================================
+    # PARKING BRAKE SYSTEM
+    # ============================================================
+
     "parking_brake_adjustment": {
         "category": "Brakes",
         "subcategory": "Parking Brake System",
@@ -1016,8 +1020,6 @@ BRAKES = {
             "",
             "17. INSTALL REAR WHEEL",
             "",
-            "   Refer to Rear Brake Pads - Removal (Step 3)",
-            "",
             "18. SETTLE PARKING BRAKE SHOE AND DISC",
             "",
             "   a. Drive the vehicle for approximately 400 m (0.25 miles) under the following",
@@ -1031,6 +1033,5 @@ BRAKES = {
             "   assembly from overheating."
         ]
     }
-    
-    
-    
+
+}
