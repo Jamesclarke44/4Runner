@@ -1,3 +1,4 @@
+from .general_information import GENERAL_INFO
 from .brakes import BRAKES
 from .engine_mechanical import ENGINE_MECHANICAL
 from .driveline_and_axles import DRIVELINE_AXLES
@@ -6,6 +7,7 @@ from .transmission import TRANSMISSION
 from .steering import STEERING
 
 WORKSHOP = {}
+WORKSHOP.update(GENERAL_INFO)
 WORKSHOP.update(BRAKES)
 WORKSHOP.update(ENGINE_MECHANICAL)
 WORKSHOP.update(DRIVELINE_AXLES)
