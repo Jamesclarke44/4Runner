@@ -86,9 +86,8 @@ DRIVELINE_AXLES = {
             "   d. Drive the vehicle and check the oil level again.",
             "   e. If necessary, add differential oil."
         ]
-    }
-},
-"transfer_case_oil": {
+    },
+    "transfer_case_oil": {
         "category": "Driveline & Axles",
         "subcategory": "Transfer Case",
         "section": "Transfer Case Oil - Inspection & Fill",
@@ -149,3 +148,5 @@ DRIVELINE_AXLES = {
             "      Torque: 37 N·m (377 kgf·cm, 27 ft·lbf)"
         ]
     }
+
+}
