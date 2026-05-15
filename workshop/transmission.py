@@ -1,138 +1,189 @@
-Adjustment [08/2019 - ]: Procedure
+TRANSMISSION = {
 
-BEFORE FILLING TRANSMISSION 
-When you have replaced the entire transmission, transmission pan, drain plug, valve body and/or torque converter, proceed to the "Transmission Fill" procedures.
-When you have replaced the transmission hose and/ or output shaft oil seal, proceed to the "Fluid Temperature Check" procedures.
-TRANSMISSION FILL 
-GTY475570Courtesy of © TOYOTA, LICENSE AGREEMENT TMS1002
-Remove the refill plug and overflow plug.
-TEXT IN ILLUSTRATION
+    "transmission_fluid_adjustment": {
+        "category": "Transmission",
+        "subcategory": "Fluid",
+        "section": "Transmission Fluid Adjustment",
+        "fluid": {
+            "type": "Toyota ATF WS",
+            "capacity": {
+                "pan_drain_plug_removal": "1.7 L (1.8 US qts, 1.5 Imp. qts)",
+                "valve_body_removal": "4.3 L (4.5 US qts, 3.8 Imp. qts)",
+                "torque_converter_removal": "5.4 L (5.7 US qts, 4.8 Imp. qts)"
+            }
+        },
+        "torque": {
+            "overflow_plug": "20 N·m (204 kgf·cm, 15 ft·lbf)",
+            "refill_plug": "37 N·m (379 kgf·cm, 27 ft·lbf)"
+        },
+        "specs": {
+            "fluid_temp_range": "40 to 45°C (104 to 113°F)",
+            "max_temp_before_check": "Below 40°C (104°F)"
+        },
+        "tools": [
+            "Techstream scan tool",
+            "DLC3 connector",
+            "Torque wrench",
+            "New gaskets (overflow & refill plugs)",
+            "Fluid pump"
+        ],
+        "workflow": [
+            "",
+            "=== TRANSMISSION FLUID ADJUSTMENT ===",
+            "",
+            "BEFORE FILLING TRANSMISSION:",
+            "- When you have replaced the entire transmission, transmission pan,",
+            "  drain plug, valve body and/or torque converter, proceed to the",
+            "  'Transmission Fill' procedures.",
+            "- When you have replaced the transmission hose and/or output shaft",
+            "  oil seal, proceed to the 'Fluid Temperature Check' procedures.",
+            "",
+            "",
+            "=== TRANSMISSION FILL ===",
+            "",
+            "1. Remove the refill plug and overflow plug.",
+            "",
+            "   *1  Refill Plug",
+            "   *2  Overflow Plug",
+            "   *3  Refill Hole",
+            "",
+            "2. Fill the transmission through the refill hole until fluid begins",
+            "   to trickle out of the overflow tube.",
+            "",
+            "   *1  Overflow Tube",
+            "   *a  Specified fluid level",
+            "",
+            "3. Reinstall the overflow plug.",
+            "",
+            "4. Fill the transmission with the amount of fluid listed below:",
+            "",
+            "   Reference Capacity:",
+            "   - Pan and drain plug removal: 1.7 L (1.8 US qts, 1.5 Imp. qts)",
+            "   - Valve body removal:        4.3 L (4.5 US qts, 3.8 Imp. qts)",
+            "   - Torque converter removal:  5.4 L (5.7 US qts, 4.8 Imp. qts)",
+            "",
+            "5. Install the refill plug.",
+            "",
+            "   HINT: If you cannot fill the listed amount of fluid:",
+            "   a. Start the engine and idle it.",
+            "      NOTE: Check that electrical systems (A/C, audio, lights) are off.",
+            "   b. Move the shift lever through the entire gear range to circulate fluid.",
+            "   c. Wait for 30 seconds with the engine idling.",
+            "   d. Stop the engine.",
+            "   e. Remove the refill plug.",
+            "   f. Fill the transmission with the remaining fluid.",
+            "   g. Install the refill plug.",
+            "",
+            "",
+            "=== FLUID TEMPERATURE CHECK ===",
+            "",
+            "NOTE: The ATF temperature can be confirmed by using the Techstream.",
+            "",
+            "1. Turn the ignition switch off.",
+            "2. Connect the Techstream to the DLC3.",
+            "3. Turn the ignition switch to ON.",
+            "4. Enter: Powertrain → ECT → Data List → A/T Oil Temperature 1.",
+            "5. Check the ATF temperature.",
+            "",
+            "   NOTE: If the ATF temperature is higher than 45°C (113°F),",
+            "   turn the ignition switch off and wait until the fluid temperature",
+            "   drops to below 40°C (104°F).",
+            "",
+            "",
+            "=== FLUID LEVEL CHECK ===",
+            "",
+            "NOTE: The ATF temperature must be between 40 and 45°C (104 and 113°F)",
+            "to accurately check the fluid level.",
+            "",
+            "When using the Techstream:",
+            "",
+            "1. Enter: Powertrain → ECT → Active Test → Connect the TC and TE1.",
+            "   Standard: Indicator lights in the combination meter blink.",
+            "",
+            "2. Depress and hold the brake pedal.",
+            "3. Start the engine to idle.",
+            "   NOTE: Check that electrical systems (A/C, audio, lights) are off.",
+            "",
+            "4. Slowly move the shift lever from P to S, then change gears from",
+            "   1st to 5th. Then return the shift lever to P.",
+            "   HINT: Slowly move the shift lever to circulate the fluid through",
+            "   each part of the transmission.",
+            "",
+            "5. Move the shift lever to D, and quickly move it back and forth",
+            "   between N and D (once within 1.5 seconds) for at least 6 seconds.",
+            "   This will activate the fluid temperature detection mode.",
+            "",
+            "   Standard: Indicator light [A/T OIL TEMP] remains illuminated",
+            "   for 2 seconds and then turns off.",
+            "",
+            "6. Return the shift lever to P and terminate the Active Test on",
+            "   the Techstream.",
+            "7. Release the brake pedal.",
+            "",
+            "",
+            "When NOT using the Techstream:",
+            "",
+            "NOTE: Make sure to switch to fluid temperature detection mode within",
+            "60 seconds after starting the engine.",
+            "",
+            "1. Depress and hold the brake pedal.",
+            "2. Start the engine to idle.",
+            "   NOTE: Check that electrical systems (A/C, audio, lights) are off.",
+            "",
+            "3. Slowly move the shift lever from P to S, then change gears from",
+            "   1st to 5th. Then return the shift lever to P.",
+            "",
+            "4. Move the shift lever to D, and quickly move back and forth",
+            "   between N and D (once within 1.5 seconds) for at least 12 seconds.",
+            "   This will activate the fluid temperature detection mode.",
+            "",
+            "   Standard: Indicator light [A/T OIL TEMP] remains illuminated",
+            "   for 2 seconds and then turns off.",
+            "",
+            "5. Move the shift lever from N to P.",
+            "6. Release the brake pedal.",
+            "",
+            "7. Allow the engine to idle until the fluid temperature reaches",
+            "   40 to 45°C (104 to 113°F).",
+            "",
+            "   HINT: The indicator [A/T OIL TEMP] will come on again when the",
+            "   fluid temperature reaches 40°C (104°F) and will blink if it is",
+            "   higher than 45°C (113°F).",
+            "",
+            "   INDICATOR [A/T OIL TEMP] INDICATION OF ATF TEMPERATURE:",
+            "   - Below 40°C (104°F):        Turn off",
+            "   - 40 to 45°C (104 to 113°F): Turn on",
+            "   - Higher than 45°C (113°F):  Blinking",
+            "",
+            "",
+            "=== CHECK FLUID LEVEL ===",
+            "",
+            "1. Remove the overflow plug and gasket with the engine idling.",
+            "",
+            "   *1  Overflow Tube",
+            "   *a  Specified fluid level",
+            "",
+            "2. Wait until the overflow slows to a trickle.",
+            "",
+            "   NOTE: If the fluid does not overflow:",
+            "   a. Remove the refill plug and gasket.",
+            "   b. Refill the transmission through the refill hole until fluid",
+            "      begins to trickle out of the overflow tube.",
+            "   c. Wait until the overflow slows to a trickle.",
+            "",
+            "3. Install a new gasket and the overflow plug.",
+            "   Torque: 20 N·m (204 kgf·cm, 15 ft·lbf)",
+            "",
+            "4. Install a new gasket and the refill plug.",
+            "   Torque: 37 N·m (379 kgf·cm, 27 ft·lbf)",
+            "",
+            "",
+            "=== COMPLETE ===",
+            "",
+            "1. Turn the ignition switch off.",
+            "2. When using the Techstream: Disconnect the Techstream from the DLC3.",
+            "3. Inspect for automatic transmission fluid leak."
+        ]
+    }
 
-*1	Refill Plug
-*2	Overflow Plug
-*3	Refill Hole
-Fill the transmission through the refill hole until fluid begins to trickle out of the overflow tube.
-GTY733133Courtesy of © TOYOTA, LICENSE AGREEMENT TMS1002
-TEXT IN ILLUSTRATION
-
-*1	Overflow Tube
-*a	Specified fluid level
-Reinstall the overflow plug.
-Fill the transmission with the amount of fluid listed in the table below.
-Reference Capacity
-
-Repair	Fill Amount
-Transmission pan and drain plug removal	1.7 liters (1.8 US qts, 1.5 Imp. qts)
-Transmission valve body removal	4.3 liters (4.5 US qts, 3.8 Imp. qts)
-Torque converter removal	5.4 liters (5.7 US qts, 4.8 Imp. qts)
-Install the refill plug.
-HINT: 
-
-If you cannot fill the listed amount of fluid, perform the following:
-
-Start the engine and idle it.
-NOTE:
-Check that electrical systems such as the air conditioning system, audio system and lighting system are off.
-
-Move the shift lever through the entire gear range to circulate the fluid.
-Wait for 30 seconds with the engine idling.
-Stop the engine.
-Remove the refill plug.
-Fill the transmission with the remaining fluid until the amount in the table has been filled.
-Install the refill plug.
-FLUID TEMPERATURE CHECK 
-NOTE:
-The ATF temperature can be confirmed by using the Techstream.
-
-Turn the ignition switch off.
-Connect the Techstream to the DLC3.
-Turn the ignition switch to ON.
-Enter the following menus: Powertrain / ECT / Data List / A/T Oil Temperature 1.
-Check the ATF temperature.
-NOTE:
-If the ATF temperature is higher than 45°C (113°F), turn the ignition switch off and wait until the fluid temperature drops to below 40°C (104°F).
-
-FLUID LEVEL CHECK 
-NOTE:
-It is necessary to change to temperature detection mode in order to idle the vehicle appropriately.
-The ATF temperature must be between 40 and 45°C (104 and 113°F) to accurately check the fluid level.
-When using the Techstream:
-Enter the following menus: Powertrain / ECT / Active Test / Connect the TC and TE1.
-Standard condition
-
-Indicator lights in the combination meter blink.
-
-Depress and hold the brake pedal.
-Start the engine to idle.
-NOTE:
-Check that electrical systems such as the air conditioning system, audio system and lighting system are off.
-
-Slowly move the shift lever from P to S, and then change the gear from 1st to 5th. Then return the shift lever to P.
-HINT: 
-
-Slowly move the shift lever to circulate the fluid through each part of the transmission.
-
-Move the shift lever to D, and quickly move it back and forth between N and D (once within 1.5 seconds) for at least 6 seconds. This will activate the fluid temperature detection mode.
-GTY229382Courtesy of © TOYOTA, LICENSE AGREEMENT TMS1002
-Standard condition
-
-Indicator light [A/T OIL TEMP] remains illuminated for 2 seconds and then turns off.
-
-Return the shift lever to P and terminate the Active Test on the Techstream.
-Release the brake pedal.
-When not using the Techstream:
-NOTE:
-Make sure to switch to fluid temperature detection mode within 60 seconds after starting the engine.
-
-Depress and hold the brake pedal.
-Start the engine to idle.
-NOTE:
-Check that electrical systems such as the air conditioning system, audio system and lighting system are off.
-
-Slowly move the shift lever from P to S, and then change the gear from 1st to 5th. Then return the shift lever to P.
-HINT: 
-
-Slowly move the shift lever to circulate the fluid through each part of the transmission.
-
-Move the shift lever to D, and quickly move back and forth between N and D (once within 1.5 seconds) for at least 12 seconds. This will activate the fluid temperature detection mode.
-GTY229382Courtesy of © TOYOTA, LICENSE AGREEMENT TMS1002
-Standard condition
-
-Indicator light [A/T OIL TEMP] remains illuminated for 2 seconds and then turns off.
-
-Move the shift lever from N to P.
-Release the brake pedal.
-Allow the engine to idle until the fluid temperature reaches 40 to 45°C (104 to 113°F).
-HINT: 
-
-The indicator [A/T OIL TEMP] will come on again when the fluid temperature reaches 40°C (104°F) and will blink if it is higher than 45°C (113°F).
-
-INDICATOR [A/T OIL TEMP] INDICATION OF ATF TEMPERATURE
-
-Below 40°C (104°F)	40 to 45°C (104 to 113°F)	Higher than 45°C (113°F)
-Turn off	Turn on	Blinking
-Remove the overflow plug and gasket with the engine idling.
-GTY733133Courtesy of © TOYOTA, LICENSE AGREEMENT TMS1002
-Wait until the overflow slows to a trickle.
-TEXT IN ILLUSTRATION
-
-*1	Overflow Tube
-*a	Specified fluid level
-NOTE:
-If the fluid does not overflow, perform the following:
-
-Remove the refill plug and gasket.
-Refill the transmission through the refill hole until fluid begins to trickle out of the overflow tube.
-Wait until the overflow slows to a trickle.
-Install a new gasket and the overflow plug.
-Torque: 20 N.m (204 kgf/cm, 15 ft.lbf) 
-
-Install a new gasket and the refill plug.
-Torque: 37 N.m (379 kgf/cm, 27 ft.lbf) 
-
-COMPLETE 
-Turn the ignition switch off.
-When using the Techstream:
-Disconnect the Techstream from the DLC3.
-
-Inspect for automatic transmission fluid leak.
+}
