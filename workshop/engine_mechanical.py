@@ -193,9 +193,8 @@ ENGINE_MECHANICAL = {
             "   a. Install the engine under cover seal with the 2 bolts.",
             "      Torque: 29 N·m (296 kgf·cm, 21 ft·lbf)"
         ]
-    }
-},
-"coolant_replacement": {
+    },
+    "coolant_replacement": {
         "category": "Engine Mechanical",
         "subcategory": "Cooling System",
         "section": "Engine Coolant Replacement",
@@ -548,4 +547,20 @@ ENGINE_MECHANICAL = {
             "",
             "   a. Install the cool air intake duct with the 4 clips."
         ]
+    },
+    "upper_radiator_support_seal_installation": {
+        "category": "Engine Mechanical",
+        "subcategory": "Cooling System",
+        "section": "Upper Radiator Support Seal - Installation",
+        "tools": ["None"],
+        "workflow": [
+            "",
+            "=== UPPER RADIATOR SUPPORT SEAL - INSTALLATION ===",
+            "",
+            "1. INSTALL UPPER RADIATOR SUPPORT SEAL",
+            "",
+            "   a. Install the upper radiator support seal with the 13 clips."
+        ]
     }
+
+}
