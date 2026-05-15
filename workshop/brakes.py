@@ -125,10 +125,10 @@ BRAKES = {
             "",
             "33. Turn the Techstream off and turn the engine switch off.",
             "34. Inspect for brake fluid leaks."
-        ]
-    }
-},
-"front_brake_pads_removal": {
+]
+    
+    },
+    "front_brake_pads_removal": {
         "category": "Brakes",
         "subcategory": "Mechanical / Hydraulic",
         "section": "Front Brake Pads - Removal",
