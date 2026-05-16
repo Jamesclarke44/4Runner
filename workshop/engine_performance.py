@@ -223,7 +223,7 @@ ENGINE_PERFORMANCE = {
         "subcategory": "Ignition",
         "section": "Spark Plug - Installation",
         "torque": {
-            "spark_plug": "18 N·m (184 kgf·cm, 13 ft·lbf)",
+            "spark_plug": "156 in-lbs (184 kgf·cm, 13 ft·lbf)",
             "ignition_coil_bolts": "10 N·m (102 kgf·cm, 7 ft·lbf)",
             "air_cleaner_bolt": "5.0 N·m (51 kgf·cm, 44 in·lbf)",
             "air_cleaner_clamp": "5.0 N·m (51 kgf·cm, 44 in·lbf)"
