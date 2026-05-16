@@ -563,4 +563,121 @@ ENGINE_MECHANICAL = {
         ]
     }
 
-}
+},
+"drive_belt_precaution": {
+        "category": "Engine Mechanical",
+        "subcategory": "Drive Belts",
+        "section": "Drive Belt - Precaution",
+        "workflow": [
+            "",
+            "=== DRIVE BELT - PRECAUTION ===",
+            "",
+            "NOTE: Do not apply or add any oil or grease to the belt tensioner",
+            "to prevent abnormal noises from the belt tensioner pulley, belt",
+            "squealing, etc.",
+            "",
+            "NOTE: Do not allow oil or grease to adhere to the moving parts of",
+            "the belt tensioner, as this may cause malfunctions.",
+            "",
+            "If oil or grease is on the location indicated by the arrow,",
+            "replace the belt tensioner."
+        ]
+    },
+    "drive_belt_inspection": {
+        "category": "Engine Mechanical",
+        "subcategory": "Drive Belts",
+        "section": "Drive Belt - On-Vehicle Inspection",
+        "tools": ["None"],
+        "workflow": [
+            "",
+            "=== DRIVE BELT - ON-VEHICLE INSPECTION ===",
+            "",
+            "1. INSPECT FAN AND GENERATOR V BELT",
+            "",
+            "   a. Check the belt for wear, cracks or other signs of damage.",
+            "",
+            "   If any of the following defects is found, replace the fan",
+            "   and generator V belt:",
+            "   - The belt is cracked.",
+            "   - The belt is worn out to the extent that the cords are exposed.",
+            "   - The belt has chunks missing from the ribs.",
+            "",
+            "   b. Check that the belt fits properly in the ribbed grooves.",
+            "",
+            "      *1  CORRECT",
+            "      *2  INCORRECT",
+            "",
+            "   HINT: Check with your hand to confirm that the belt has not",
+            "   slipped out of the grooves on the bottom of the pulley. If it",
+            "   has slipped out, replace the fan and generator V belt. Install",
+            "   a new fan and generator V belt correctly.",
+            "",
+            "2. INSPECT V-RIBBED BELT TENSIONER ASSEMBLY",
+            "",
+            "   a. Check that nothing gets caught in the tensioner by turning",
+            "      it clockwise and counterclockwise.",
+            "   b. If the result is not as specified, replace the tensioner."
+        ]
+    },
+    "drive_belt_removal": {
+        "category": "Engine Mechanical",
+        "subcategory": "Drive Belts",
+        "section": "Drive Belt - Removal",
+        "tools": [
+            "6 mm (0.236 in.) bar or equivalent"
+        ],
+        "workflow": [
+            "",
+            "=== DRIVE BELT - REMOVAL ===",
+            "",
+            "1. REMOVE FAN AND GENERATOR V BELT",
+            "",
+            "   a. While turning the belt tensioner counterclockwise, align the",
+            "      service hole for the belt tensioner and the belt tensioner",
+            "      fixing position.",
+            "",
+            "   b. Insert a bar of 6 mm (0.236 in.) into the service hole to",
+            "      fix the belt tensioner in place.",
+            "",
+            "   HINT: The pulley bolt for the belt tensioner has a left-hand thread.",
+            "",
+            "   c. Remove the V belt."
+        ]
+    },
+    "drive_belt_installation": {
+        "category": "Engine Mechanical",
+        "subcategory": "Drive Belts",
+        "section": "Drive Belt - Installation",
+        "tools": [
+            "6 mm (0.236 in.) bar or equivalent"
+        ],
+        "workflow": [
+            "",
+            "=== DRIVE BELT - INSTALLATION ===",
+            "",
+            "1. INSTALL FAN AND GENERATOR V BELT",
+            "",
+            "   a. Set the V belt onto every part.",
+            "",
+            "   Belt Routing:",
+            "   *1  Vane Pump",
+            "   *2  Water Pump",
+            "   *3  No. 2 Idler",
+            "   *4  Generator",
+            "   *5  Cooler Compressor",
+            "   *6  No. 1 Idler",
+            "   *7  Crankshaft",
+            "   *8  V-ribbed Belt Tensioner",
+            "",
+            "   b. While turning the belt tensioner counterclockwise, remove",
+            "      the pin.",
+            "",
+            "   NOTE: Make sure that the V belt is properly installed to each",
+            "   pulley.",
+            "",
+            "   c. Check that the belt fits properly in the ribbed grooves.",
+            "",
+            "   HINT: Make sure to check by hand that the belt has not slipped",
+            "   out of the grooves on the bottom of the pulley."
+        ]
+    }
