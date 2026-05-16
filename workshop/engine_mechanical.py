@@ -678,7 +678,7 @@ ENGINE_MECHANICAL = {
             "",
             "   HINT: Make sure to check by hand that the belt has not slipped",
             "   out of the grooves on the bottom of the pulley."
-]
+        ]
     },
     "pcv_valve_removal": {
         "category": "Engine Mechanical",
