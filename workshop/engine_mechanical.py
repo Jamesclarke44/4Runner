@@ -560,11 +560,10 @@ ENGINE_MECHANICAL = {
             "1. INSTALL UPPER RADIATOR SUPPORT SEAL",
             "",
             "   a. Install the upper radiator support seal with the 13 clips."
-        ]
-    }
+]
 
-},
-"drive_belt_precaution": {
+    },
+    "drive_belt_precaution": {
         "category": "Engine Mechanical",
         "subcategory": "Drive Belts",
         "section": "Drive Belt - Precaution",
