@@ -135,7 +135,25 @@ def render(data):
 
     with tab2:
         st.markdown("## 📐 Common Specs")
-        st.info("Common specifications coming soon.")
+
+        st.markdown("### 🛞 Tire Fitment")
+
+        tire_data = {
+            "Drive Type": "RWD",
+            "Body Style": "4D Utility",
+            "GVWR": "6100-6300 lbs",
+            "Standard Size": "P245/60R20 107H",
+            "Inflation (F/R)": "32 - 32 psi",
+            "Torque": "76 ft-lbs",
+            "Rim Size": "7J",
+            "Bolt Pattern": "6-139.7mm"
+        }
+
+        for k, v in tire_data.items():
+            st.write(f"**{k}:** {v}")
+
+        st.markdown("---")
+        st.info("More specs coming soon.")
 
     with tab3:
         st.markdown("## 🔧 Quick Procedures")
