@@ -680,4 +680,82 @@ ENGINE_MECHANICAL = {
             "   out of the grooves on the bottom of the pulley."
         ]
     }
+    },
+    "pcv_valve_removal": {
+        "category": "Engine Mechanical",
+        "subcategory": "PCV System",
+        "section": "PCV Valve - Removal",
+        "tools": ["Pliers or hose clamp tool"],
+        "references": {"v_bank_cover": "V-Bank Cover Removal"},
+        "workflow": [
+            "",
+            "=== PCV VALVE - REMOVAL ===",
+            "",
+            "1. REMOVE V-BANK COVER",
+            "   → Refer to V-Bank Cover Removal",
+            "",
+            "2. DISCONNECT HEATER HOSE",
+            "   a. Disconnect the heater hose clamp.",
+            "",
+            "3. REMOVE PCV VALVE SUB-ASSEMBLY",
+            "   a. Loosen the hose clamp and disconnect the PCV hose from the valve.",
+            "   b. Remove the valve."
+        ]
+    },
+    "pcv_valve_inspection": {
+        "category": "Engine Mechanical",
+        "subcategory": "PCV System",
+        "section": "PCV Valve - Inspection",
+        "tools": ["Clean hose"],
+        "workflow": [
+            "",
+            "=== PCV VALVE - INSPECTION ===",
+            "",
+            "1. INSPECT PCV VALVE SUB-ASSEMBLY",
+            "",
+            "   a. Install a clean hose to the PCV valve.",
+            "   b. Check the PCV valve operation.",
+            "",
+            "   c. Blow air into the cylinder head side, and check that air",
+            "      passes through easily.",
+            "      *1  Hose    *2  Air",
+            "",
+            "   ⚠️ WARNING: Do not suck air through the valve.",
+            "   Petroleum substances inside the valve are hazardous to your health.",
+            "",
+            "   d. Blow air into the intake manifold side, and check that air",
+            "      passes through with difficulty.",
+            "      *1  Hose    *2  Air",
+            "",
+            "   e. If the result is not as specified, replace the PCV valve.",
+            "   f. Remove the clean hose from the PCV valve."
+        ]
+    },
+    "pcv_valve_installation": {
+        "category": "Engine Mechanical",
+        "subcategory": "PCV System",
+        "section": "PCV Valve - Installation",
+        "torque": {"pcv_valve": "27 N·m (275 kgf·cm, 20 ft·lbf)"},
+        "specs": {"adhesive": "Toyota Genuine Adhesive 1324, Three Bond 1324 or equivalent"},
+        "tools": ["Torque wrench", "Pliers or hose clamp tool", "Adhesive (Toyota Genuine 1324 or equivalent)"],
+        "references": {"v_bank_cover": "V-Bank Cover Installation"},
+        "workflow": [
+            "",
+            "=== PCV VALVE - INSTALLATION ===",
+            "",
+            "1. INSTALL PCV VALVE SUB-ASSEMBLY",
+            "",
+            "   a. Apply adhesive to 2 or 3 threads of the PCV valve.",
+            "      Adhesive: Toyota Genuine Adhesive 1324, Three Bond 1324 or equivalent",
+            "   b. Install the PCV valve.",
+            "      Torque: 27 N·m (275 kgf·cm, 20 ft·lbf)",
+            "   c. Connect the PCV hose to the valve.",
+            "   d. Secure the hose with the clamp.",
+            "",
+            "2. CONNECT HEATER HOSE",
+            "   a. Connect the heater hose clamp.",
+            "",
+            "3. INSTALL V-BANK COVER",
+            "   → Refer to V-Bank Cover Installation"
+        ]
     }
